@@ -15,4 +15,6 @@
     * For mobile applications using IAM Roles and IAM federation is the preferred method
     * Master account, management account, payer account are mean the same thing for an organization. Account used to create an org and used to pay the bill for an org
     * For organizations the architectural pattern is a single account for identities and then roles for each identity to access the other accounts under an org.
+    * The management account is special and unaffected by service control policies (SCPs) which are attached directly or indirectly
+
 
